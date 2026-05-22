@@ -6,9 +6,8 @@ st.write(
 )
 import streamlit as st
 
-st.badge("New")
-st.badge("Success", icon=":material/check:", color="green")
-
-st.markdown(
-    ":violet-badge[:material/star: Favorite] :orange-badge[⚠️ Needs review] :gray-badge[Deprecated]"
-)
+st.latex(r'''
+    a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+    \sum_{k=0}^{n-1} ar^k =
+    a \left(\frac{1-r^{n}}{1-r}\right)
+    ''')
