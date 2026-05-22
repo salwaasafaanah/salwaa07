@@ -4,6 +4,11 @@ st.title("🎈 Aplikasi Awaa")
 st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 )
+your-repository/
+├── pages/
+│   ├── page_1.py
+│   └── page_2.py
+└── your_app.py
 import streamlit as st
 
 st.page_link("your_app.py", label="Home", icon="🏠")
